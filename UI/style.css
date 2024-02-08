@@ -1,0 +1,48 @@
+/* styles.css */
+body, html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  color: rgb(0, 0, 0);
+  margin-top: 50px;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+#container {
+  justify-content: center;
+  align-items: center;
+}
+
+#colorForm {
+  width: 500px;
+  height: 350px;
+  padding: 30px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.colorInput {
+  margin-bottom: 10px;
+  padding: auto;
+  display: inline;
+}
+
+.textColor {
+  width: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+label {
+  font-size: 25px;
+}
+#colorDisplay {
+  width: 500px;
+  height:195px;
+  background-color: #000000;
+  border-radius: 10px;
+}

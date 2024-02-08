@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEX-RGB Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+      <div id="colorForm">
+        <h2>HEX - RGB Converter</h2>
+          <form>
+              <div class="colorInput">
+                  <label for="rgbInput">RGB:</label>
+                  <input type="text" id="rgbInput" name="rgbInput" placeholder="RGB 0, 0, 0">
+              </div>
+              <div class="colorInput">
+                  <label for="hexInput">HEX:</label>
+                  <input type="text" id="hexInput" name="hexInput" placeholder="Hex code #000000">
+              </div>
+          </form>
+          <h3>Selected color:</h3>
+          <div id="colorDisplay"></div>
+      </div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
