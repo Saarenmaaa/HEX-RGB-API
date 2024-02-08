@@ -62,4 +62,10 @@ describe("HEX-to-RGB Converter", () => {
         expect(hex_to_rgb("#000088")[2]).to.equal(136);
         expect(hex_to_rgb("#ffff12")[2]).to.not.equal(1000);
     });
+    it("should convert HEX-to-RGB value correctly", () => {
+        expect(hex_to_rgb("#ff0000")).to.deep.equal([255, 0, 0]);
+        expect(hex_to_rgb("#00ff00")).to.deep.equal([0, 255, 0]);
+        expect(hex_to_rgb("#0000ff")).to.deep.equal([0, 0, 255]);
+        expect(hex_to_rgb("#ff8800")).to.deep.equal([255, 136, 0]);
+    });
 });
