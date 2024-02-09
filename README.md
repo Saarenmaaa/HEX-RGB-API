@@ -1,4 +1,6 @@
 # HEX - RGB Converter
 
+Very simple UI
+
 Hex <> RGB Converted API with UI.
-Integration testing & Unit testing.
+Integration tested & Unit tested.
